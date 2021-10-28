@@ -1,0 +1,32 @@
+.UserItem img{
+    height: auto;
+    max-width: 5rem;
+    align-self: center;
+}
+
+.UserItem{
+    flex-basis:22%;
+    border:3px solid black;
+    border-radius:8%;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    margin:10px;
+    padding: 5px;
+}
+
+.UserItem button{
+    min-width: 40%;
+    align-self: center;
+    background: #af1703;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10%;
+    margin-top:8px;
+}
+
+.UserItem button:hover{
+    filter: brightness(115%);
+}

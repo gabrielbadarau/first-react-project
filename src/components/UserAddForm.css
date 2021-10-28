@@ -1,0 +1,13 @@
+.user-add-form h2 {
+    font-style: italic;
+}
+
+.user-add-form {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 30%;
+}
+
+.user-add-form input {
+   padding:5px;
+}

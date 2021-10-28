@@ -1,0 +1,47 @@
+/* Daca vrem ca aplicatia sa ocupe intreg viewport-ul. */
+.app {
+  min-height: 100vh;
+  margin:0 auto;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.app h1 {
+  margin-top:0;
+  text-align: center;
+}
+
+
+.buttons{
+  display:flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons button{
+  margin:0 0.4rem;
+  background: #147a69;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  font-size:18px;
+  border-radius: 5%;
+}
+
+.buttons button:hover{
+  filter: brightness(115%);
+}
+
+.changeColor{
+  display:flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.changeColor p{
+  font-weight: bold;
+  margin-right: 1rem;
+}
