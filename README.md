@@ -1,42 +1,37 @@
-# JavaScript Advanced - Proiectul 1
+# My first React project
 
-## Rularea proiectului
+In order for this project to work I used node v13.10.1 and npm v.8.1.3
 
-#### 1. `git clone https://github.com/gabrielbadarau/react-proiect1.git`
+## Concepts learned:
 
-#### 2. `cd react-proiect1`
+- împărțirea unei pagini în componente
+- JSX 
+- props 
+- state
+- randare condiționată 
+- randare repetitvă 
+- lifecycle methods
+- formulare 
+- transmiterea datelor între componente 
+- setState 
 
-#### 3. `npm install` 
+## Functionalities:
 
-#### 4. `npm start`
+- Preluare useri din API - userii noștri sunt aduși în urma unui request asincron către JSON Placeholder
+- Listare useri existenți - userii pe care i-am preluat din API sunt afișați pe ecran
+- Adăugare user nou - completând câmpurile din formular, la submitere userul nou introdus este listat pe ecran
+- Schimbare culoare fundal - dând click pe butonul din subsolul paginii, putem schimba culoarea de fundal a paginii
+- Două proprietăți noi pentru fiecare user: salariu și imagine
+- Un nou input de tip culoare. La schimbarea culorii lui, culoarea textului pentru întreaga aplicație se va schimba.
+- Două componente noi, numite PostList și PostItem. PostList va fi o listă de componente de tip PostItem.
+- În componenta PostList, atunci când este afișată pe ecran, facem un request catre endpoint-ul /posts, de pe JSON placeholder, afișând datele preluate.
+- Două butoane: Afișează useri și Afișează postări. Implicit, vor fi afișați userii. La click pe oricare din cele două butoane, va fi actualizată lista afișată pe ecran. Dacă dăm click pe butonul Afișează useri va fi afișată lista userilor, dacă dăm click pe Afișează postări va fi afișată lista postărilor.
+- Buton de ștergere.
+- Validare a datelor în form (să nu poată fi introdus un nume gol, iar emailul să conțină caracterele `@` și `.`)
+- Stilizarea aplicației
 
-## Cursuri precedente
+## Project based on the following repositories:
 
-Pentru a vedea progresiv cum a fost realizat acest proiect urmariti urmatoarele repo-uri. Comentariile/console.log-urile din fiecare fisier sunt specifice cursurului la care au fost facute. Versiunea finala este fara comentarii sau console.log-uri.
-
-#### Cursul 2: https://github.com/razvancir96/react-curs02
-
-#### Cursul 3: https://github.com/razvancir96/react-curs03
-
-#### Cursul 4: https://github.com/razvancir96/react-curs04
-
-## Cerințe de implementat
-
-Pentru a continua proiectul, aveți de implementat cerințele care au fost date de-a lungul cursurilor 2-4:
-
-2.1. Adăugați două proprietăți noi pentru fiecare user: salariu și imagine. Dați valori pentru acestea și afișați-le pe ecran.
-
-2.2. Adăugați un nou input de tip culoare. La schimbarea culorii lui, culoarea textului pentru întreaga aplicație se va schimba.
-
-3.1. Creați două componente noi, numite PostList și PostItem. PostList va fi o listă de componente de tip PostItem.
-În componenta PostList, atunci când este afișată pe ecran, faceți un request catre endpoint-ul /posts, de pe JSON placeholder, afișând datele preluate. Practic, o singură dată veți face request către url-ul https://jsonplaceholder.typicode.com/posts.
-
-3.2. Creați două butoane: Afișează useri și Afișează postări. Implicit, vor fi afișați userii. La click pe oricare din cele două butoane, va fi actualizată lista afișată pe ecran. Dacă dăm click pe butonul Afișează useri va fi afișată lista userilor, dacă dăm click pe Afișează postări va fi afișată lista postărilor.
-
-4.1 Adăugați pe fiecare user un buton de ștergere.
-
-4.2. Faceți puțină validare a datelor. Spre exemplu, să nu poată fi introdus un nume gol, iar emailul să conțină caracterele `@` și `.`.
-
-4.3. Stilizați aplicația, astfel încât să arate mai frumos.
-
-# react-proiect1
+Cursul 2: https://github.com/razvancir96/react-curs02
+Cursul 3: https://github.com/razvancir96/react-curs03
+Cursul 4: https://github.com/razvancir96/react-curs04
