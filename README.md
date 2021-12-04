@@ -2,19 +2,6 @@
 
 In order for this project to work I used node v13.10.1 and npm v.8.1.3
 
-## Concepts learned:
-
-- împărțirea unei pagini în componente
-- JSX 
-- props 
-- state
-- randare condiționată 
-- randare repetitvă 
-- lifecycle methods
-- formulare 
-- transmiterea datelor între componente 
-- setState 
-
 ## Functionalities:
 
 - Preluare useri din API - userii noștri sunt aduși în urma unui request asincron către JSON Placeholder
@@ -30,8 +17,23 @@ In order for this project to work I used node v13.10.1 and npm v.8.1.3
 - Validare a datelor în form (să nu poată fi introdus un nume gol, iar emailul să conțină caracterele `@` și `.`)
 - Stilizarea aplicației
 
+## Concepts learned:
+
+- împărțirea unei pagini în componente
+- JSX 
+- props 
+- state
+- randare condiționată 
+- randare repetitvă 
+- lifecycle methods
+- formulare 
+- transmiterea datelor între componente 
+- setState 
+
 ## Project based on the following repositories:
 
 Cursul 2: https://github.com/razvancir96/react-curs02
+
 Cursul 3: https://github.com/razvancir96/react-curs03
+
 Cursul 4: https://github.com/razvancir96/react-curs04
