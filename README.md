@@ -10,10 +10,10 @@ In order for this project to work I used node v13.10.1 and npm v.8.1.3
 - Schimbare culoare fundal - dând click pe butonul din subsolul paginii, putem schimba culoarea de fundal a paginii
 - Două proprietăți noi pentru fiecare user: salariu și imagine
 - Un nou input de tip culoare. La schimbarea culorii lui, culoarea textului pentru întreaga aplicație se va schimba.
-- Două componente noi, numite PostList și PostItem. PostList va fi o listă de componente de tip PostItem.
+- Două componente noi, numite PostList și PostItem. PostList va fi o listă de componente de tip PostItem
 - În componenta PostList, atunci când este afișată pe ecran, facem un request catre endpoint-ul /posts, de pe JSON placeholder, afișând datele preluate.
-- Două butoane: Afișează useri și Afișează postări. Implicit, vor fi afișați userii. La click pe oricare din cele două butoane, va fi actualizată lista afișată pe ecran. Dacă dăm click pe butonul Afișează useri va fi afișată lista userilor, dacă dăm click pe Afișează postări va fi afișată lista postărilor.
-- Buton de ștergere.
+- Două butoane: Afișează useri și Afișează postări. Implicit, vor fi afișați userii. La click pe oricare din cele două butoane, va fi actualizată lista afișată pe ecran. Dacă dăm click pe butonul Afișează useri va fi afișată lista userilor, dacă dăm click pe Afișează postări va fi afișată lista postărilor
+- Buton de ștergere
 - Validare a datelor în form (să nu poată fi introdus un nume gol, iar emailul să conțină caracterele `@` și `.`)
 - Stilizarea aplicației
 
