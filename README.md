@@ -2,7 +2,7 @@
 
 In order for this project to work I used node v13.10.1 and npm v.8.1.3
 
-## Functionalities:
+## Funcționalități:
 
 - Preluare useri din API - userii noștri sunt aduși în urma unui request asincron către JSON Placeholder
 - Listare useri existenți - userii pe care i-am preluat din API sunt afișați pe ecran
@@ -17,7 +17,7 @@ In order for this project to work I used node v13.10.1 and npm v.8.1.3
 - Validare a datelor în form (să nu poată fi introdus un nume gol, iar emailul să conțină caracterele `@` și `.`)
 - Stilizarea aplicației
 
-## Concepts learned:
+## Concepte folosite:
 
 - împărțirea unei pagini în componente
 - JSX 
